@@ -246,10 +246,287 @@
                       </h4>
                       <p class="mbr-text mbr-fonts-style display-7">
                         SRON is now officially available for Linux platforms
-                        bringing its speed and efficiency beyond Windows.
+                        bringing its speed and efficiency beyond Windows along with 
+                        multi-platform support for bytecode. It means the bytecode
+                        generated in Windows system can run on linux and vice versa.
                       </p>
                     </div>
                   </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Added File Datatypes:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Added 'FileReader' and 'FileWriter' for reading and writing files with
+                        great speed, safety and accuracy.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Added new type 'LiteralString':</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Added 'LiteralString' which is a immutable string type storing compile time string literal values.
+                        It restricts creating copies of strings like command line arguments and literal string which
+                        eventually leads to faster code execution and memory efficiency.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Added new exit codes:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Added new exit codes ranging 7 to 11 syndicating why your interpreter exited. 
+                        <a href="https://sron.gitbook.io/docs/exit-codes">Learn more about exit codes.</a>  
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Added File Manipulation function:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Added `<strong>14</strong>` new functions for working on file like freader(), fwriter(), fisOpen(), fisEnd()
+                        freadChar(), freadLine(), freadWhole(), fwriteChar(), fwriteString(), fcurPos(),
+                        fsetSeek(), freset(), fgetName() and fclose().
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Added new keywords for CLI-Designing:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Added `<strong>41</strong>` new keywords to design/colorize your terminal's text.
+                        You can now set text background color, text color and text design
+                        (bold, italic, underline dim, strike etc.) on the terminal.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Added more new functions:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Added <strong>'isFileReader()'</strong>, <strong>'isFileWriter()'</strong>
+                        and <strong>'isLiteralString'</strong> to verify 
+                        the type of the value. Added <strong>'isAlphaNum()'</strong>
+                        to check if the passed character is alpha-numeric character or not. Added 
+                        <strong>'cliTextColor()'</strong> and <strong>'cliBgColor()'</strong> to colorize
+                        text and background of terminal.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Better Documentation:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Documentations are now more expressive and detailed. Also, some typos 
+                        and minor mistakes are fixed. Read the docs from 
+                        <a href="https://sron.gitbook.io/docs">here</a>.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Changed Bitwise Operators:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Bitwise AND, Bitwise OR and Bitwise NOT were syndicated using 
+                        <strong>and</strong>, <strong>or</strong> and <strong>not</strong>
+                        respectively which was quite confusing with Logical AND, Logical OR
+                        and Logical NOT. From SRON v2.3, Bitwise operators will follow the 
+                        traditional way of writing bitwise operators like this <strong> ~(bitwise NOT),
+                        &(bitwise AND) and |(bitwise OR)</strong>.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Changed Cmd-Line argument's type:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Changed type of command line arguments from 'String' to 'LiteralString' leading to faster 
+                        extraction of command line arguments.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Cleaner Codebase:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Internal code structure has been reorganized for higher
+                        readability, maintainability, scalability and extensibility.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4 class="mbr-section-subtitle mbr-fonts-style display-5">
+                        <strong>Coding Convention of function changed:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Now, all in-built functions of SRON follows camelCase instead of 
+                        smallcase for standardized and beautiful codes. Existing function names
+                        are also changed to camelCase.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Colorized Output:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Compiler and interpreter messages now include colored
+                        text for improved visibility - from errors and
+                        exceptions to general information.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Expanded Call Stack:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        The interpreter now supports a call stack size of 2000,
+                        offering double the depth Python allows (996). Now, you
+                        can perform 1999-level deep recursion for complex computation.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Enhanced Error Messages:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        All exceptions and error messages are now cleaner,
+                        clearer, and more informative.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Fixed incorrect line number:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Fixed an issue where the compiler displayed incorrect
+                        line numbers in error messages.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Fixed Math Block Bug:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Fixed the bug where compiler was not throwing error when there is an invalid
+                        Mathematical expression written in Math block ( ${ } ).
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4 class="mbr-section-subtitle mbr-fonts-style display-5">
+                        <strong>Fixed sizeof function:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Fixed sizeof() function which was giving incorrect size of values.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4 class="mbr-section-subtitle mbr-fonts-style display-5">
+                        <strong>Fixed memory leak:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Fixed memory leaks due to SIGINT, SIGTERM and other signals.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Improved Typing Convention:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Interpreter typing conventions have been standardized
+                        for better consistency, readability, and understanding.
+                      </p>
+                    </div>
+                  </div>
+
+
                   <div class="item features-without-image col-12">
                     <div class="item-wrapper">
                       <h4
@@ -264,19 +541,108 @@
                       </p>
                     </div>
                   </div>
+
+                  
                   <div class="item features-without-image col-12">
                     <div class="item-wrapper">
                       <h4
                         class="mbr-section-subtitle mbr-fonts-style display-5"
                       >
-                        <strong>Expanded Call Stack:</strong>
+                        <strong>Math block syntax changed:</strong>
                       </h4>
                       <p class="mbr-text mbr-fonts-style display-7">
-                        The interpreter now supports a call stack size of 2000,
-                        offering double the depth Python allows (996).
+                        Now math block syntax is ${ } instead of ~{ }~.
+                        This will lead to more precise and cleaner code.
                       </p>
                     </div>
                   </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>More precise argument exceptions:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        More precise exception messages by in-built function explaining what argument should have been passed.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>New attributes 'linux':</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Added attribute 'linux' which can be used to execute a block of code only in linux operating system.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>New attributes 'windows':</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Added attribute 'windows' which can be used to execute a block of code only in windows operating system.
+                      </p>
+                    </div>
+                  </div>
+
+                  
+
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>New espace sequences:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Added \r (carriage return) and \b (backspace) in both 'String' and 'Char' types.
+                      </p>
+                    </div>
+                  </div>
+
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>New exit code 6:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        From version 2.3, exit code 6 is returned by the SRON's interpreter in 
+                        case of call stack overflow.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="item features-without-image col-12">
+                    <div class="item-wrapper">
+                      <h4
+                        class="mbr-section-subtitle mbr-fonts-style display-5"
+                      >
+                        <strong>Open sourced 2.3:</strong>
+                      </h4>
+                      <p class="mbr-text mbr-fonts-style display-7">
+                        Version 2.1, 2.2 and 2.3 are open sourced on GitHub.
+                        Visit <a href="https://github.com/saksham-joshi/SRON">here</a>.
+                        Keep note that Bytecode Writer and Execution Engine of the
+                        compiler and interpreter respectively is not open-sourced.
+                      </p>
+                    </div>
+                  </div>
+
                   <div class="item features-without-image col-12">
                     <div class="item-wrapper">
                       <h4
@@ -285,78 +651,70 @@
                         <strong>Precise Execution Time:</strong>
                       </h4>
                       <p class="mbr-text mbr-fonts-style display-7">
-                        <strong>get_exec_time()</strong> now returns results in
+                        <strong>getExecTime()</strong> now returns results in
                         milliseconds instead of seconds, enabling more precise
-                        performance measurements.
+                        time measurements.
                       </p>
                     </div>
                   </div>
+
                   <div class="item features-without-image col-12">
                     <div class="item-wrapper">
                       <h4
                         class="mbr-section-subtitle mbr-fonts-style display-5"
                       >
-                        <strong>Improved Typing Convention:</strong>
+                        <strong>Returning value of Main:</strong>
                       </h4>
                       <p class="mbr-text mbr-fonts-style display-7">
-                        Interpreter typing conventions have been standardized
-                        for better consistency, readability, and understanding.
+                        Now, developer can return values from Main function to the Operating system.
+                        Keep note that only 'Int' values and 'Void' can be return from Main where 
+                        'Void' will automatically considered as zero.
                       </p>
                     </div>
                   </div>
+
                   <div class="item features-without-image col-12">
                     <div class="item-wrapper">
                       <h4
                         class="mbr-section-subtitle mbr-fonts-style display-5"
                       >
-                        <strong>Accurate Compiler Diagnostics:</strong>
+                        <strong>Removed implicit conversion from String to List:</strong>
                       </h4>
                       <p class="mbr-text mbr-fonts-style display-7">
-                        Fixed an issue where the compiler displayed incorrect
-                        line numbers in error messages.
+                        To allow more intuitive/predicatable output, implicit conversion from 
+                        String to List is removed. However, you can still convert String to
+                        List using split() function.
                       </p>
                     </div>
                   </div>
+
                   <div class="item features-without-image col-12">
                     <div class="item-wrapper">
                       <h4
                         class="mbr-section-subtitle mbr-fonts-style display-5"
                       >
-                        <strong>Enhanced Error Messages:</strong>
+                        <strong>Signals handled:</strong>
                       </h4>
                       <p class="mbr-text mbr-fonts-style display-7">
-                        All exceptions and error messages are now cleaner,
-                        clearer, and more informative.
+                        Handled SIGINT, SIGTERM, SIGKILL, SIGSEGV, SIGABRT and SIGBREAK to counter memory leaks and ensure safety and accuracy.
                       </p>
                     </div>
                   </div>
+
                   <div class="item features-without-image col-12">
                     <div class="item-wrapper">
                       <h4
                         class="mbr-section-subtitle mbr-fonts-style display-5"
                       >
-                        <strong>Colorized Output:</strong>
+                        <strong>New version message:</strong>
                       </h4>
                       <p class="mbr-text mbr-fonts-style display-7">
-                        Compiler and interpreter messages now include colored
-                        text for improved visibility — from errors and
-                        exceptions to general information.
+                        A beautiful and more informative version message is displayed 
+                        when flag <code style="color:cyan">--version</code> is passed in SRON's compiler.
                       </p>
                     </div>
                   </div>
-                  <div class="item features-without-image col-12">
-                    <div class="item-wrapper">
-                      <h4
-                        class="mbr-section-subtitle mbr-fonts-style display-5"
-                      >
-                        <strong>Cleaner Codebase:</strong>
-                      </h4>
-                      <p class="mbr-text mbr-fonts-style display-7">
-                        Internal code structure has been reorganized for higher
-                        readability, maintainability, and extensibility.
-                      </p>
-                    </div>
-                  </div>
+
                 </div>
               </div>
             </div>
